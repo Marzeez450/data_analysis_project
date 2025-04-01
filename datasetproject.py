@@ -32,7 +32,7 @@ df_cleaned.isnull().sum()
 
 #Convert categorical variables to appropriate data types
 df['Genre'] = df['Genre'].astype('category')
-df['Genre'] = df['Genre'].astype('category')
+df['Gender'] = df['Gender'].astype('category')
 df['Nationality'] = df['Nationality'].astype('category')
 
 #Verify changes
